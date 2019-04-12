@@ -16,7 +16,7 @@ Tensorflow==1.5.0
 Keras==2.2.2  
 
 ## 数据集
-<img src="https://github.com/HughChi/Image-Caption/raw/master/images/dataset.png" width="600">
+<div align=center><img width="600" src="https://github.com/HughChi/Image-Caption/raw/master/images/dataset.png"></div>
 
 数据来自[2017 AI Challenger](https://challenger.ai/competition/caption)  
 数据集对给定的每一张图片有五句话的中文描述。数据集包含30万张图片，150万句中文描述。  
@@ -27,7 +27,7 @@ Keras==2.2.2
 [数据集下载](https://challenger.ai/dataset/caption)，放在data目录  
 
 ## 模型结构
-<img src="https://github.com/HughChi/Image-Caption/raw/master/images/net.png" width="600" >
+<div align=center><img width="600" src="https://github.com/HughChi/Image-Caption/raw/master/images/net.png"></div>
 
 ## Result
 | CIDEr | Bleu_4 | Bleu_3 | Bleu_2 | Bleu_1 | ROUGE_L | METEOR |
@@ -60,3 +60,6 @@ $ python backward.py
 $ tensorboard --logdir path_to_current_dir/logs
 ```
 
+## 网页展示
+<div align=center><img width="600" src="https://github.com/HughChi/Image-Caption/raw/master/images/web1.jpg"></div>
+<div align=center><img width="600" src="https://github.com/HughChi/Image-Caption/raw/master/images/web2.jpg"></div>
