@@ -18,7 +18,7 @@ Keras==2.2.2
 ## 数据集
 <img src="https://github.com/HughChi/Image-Caption/raw/master/images/dataset.png" width="600">
 
-数据来自[2017 AI Challenger](https://challenger.ai/competition/caption)
+数据来自[2017 AI Challenger](https://challenger.ai/competition/caption)  
 数据集对给定的每一张图片有五句话的中文描述。数据集包含30万张图片，150万句中文描述。  
 训练集：210,000 张   
 验证集：30,000 张   
