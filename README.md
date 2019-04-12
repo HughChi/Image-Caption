@@ -1,30 +1,30 @@
 # 图像中文描述
-图像中文描述问题融合了计算机视觉与自然语言处理两个方向，对图片输出一句话的描述。
-描述句子要求符合自然语言习惯，点明图像中的重要信息，涵盖主要人物、场景、动作等内容。
+图像中文描述问题融合了计算机视觉与自然语言处理两个方向，对图片输出一句话的描述。  
+描述句子要求符合自然语言习惯，点明图像中的重要信息，涵盖主要人物、场景、动作等内容。  
 
-此项目是人工智能实践的课程项目，非常感谢曹健老师和每一位队友！
+此项目是人工智能实践的课程项目，非常感谢曹健老师和每一位队友！  
 
-Our Demo:https://www.bilibili.com/video/av39947484 
-Reference Paper: Show and Tell: A Neural Image Caption Generator https://arxiv.org/pdf/1411.4555 
-Reference Code: https://github.com/foamliu/Image-Captioning 
+Our Demo:https://www.bilibili.com/video/av39947484   
+Reference Paper: Show and Tell: A Neural Image Caption Generator https://arxiv.org/pdf/1411.4555   
+Reference Code: https://github.com/foamliu/Image-Captioning   
 
 技术细节详见博客:
 
 ## Environment
-Python==3.5
-Tensorflow==1.5.0
-Keras==2.2.2
+Python==3.5  
+Tensorflow==1.5.0  
+Keras==2.2.2  
 
 ## 数据集
 <img src="https://github.com/HughChi/Image-Caption/raw/master/images/dataset.png" width="600">
 
 数据来自[2017 AI Challenger](https://challenger.ai/competition/caption)
-数据集对给定的每一张图片有五句话的中文描述。数据集包含30万张图片，150万句中文描述。
-训练集：210,000 张 
-验证集：30,000 张 
-测试集 A：30,000 张 
-测试集 B：30,000 张
-[数据集下载](https://challenger.ai/dataset/caption)，放在data目录
+数据集对给定的每一张图片有五句话的中文描述。数据集包含30万张图片，150万句中文描述。  
+训练集：210,000 张   
+验证集：30,000 张   
+测试集 A：30,000 张   
+测试集 B：30,000 张  
+[数据集下载](https://challenger.ai/dataset/caption)，放在data目录  
 
 ## 模型结构
 <img src="https://github.com/HughChi/Image-Caption/raw/master/images/net.png" width="600" >
