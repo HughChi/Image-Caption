@@ -49,8 +49,8 @@ $ python app.py
 ```
 | Image | Caption |
 | --- | --- |
-| ![image](https://github.com/HughChi/Image-Caption/raw/master/images/0_bs_image.png) | Beam Search, k=1: 一个穿着潜水服的人在蔚蓝的海里潜水<br>Beam Search, k=3: 海面上有一个穿着潜水服的人在潜水<br>Beam Search, k=5: 海面上有一个穿着潜水服的人在潜水<br>Beam Search, k=7: 波涛汹涌的大海里有一个穿着潜水服的人在冲浪 |
-| ![image](https://github.com/HughChi/Image-Caption/raw/master/images/1_bs_image.png) | Beam Search, k=1: 大厅里一群人旁边有一个穿着黑色衣服的女人在下国际象棋<br>Beam Search, k=3: 大厅里一群人的旁边有一个左手托着下巴的女人在下国际象棋<br>Beam Search, k=5: 大厅里一群人旁有一个戴着眼镜的女人在下国际象棋<br>Beam Search, k=7: 大厅里一群人旁边有一个戴着眼镜的女人在下国际象棋 |
+| ![image](https://github.com/HughChi/Image-Caption/raw/master/images/0_bs_image.jpg) | Beam Search, k=1: 一个穿着潜水服的人在蔚蓝的海里潜水<br>Beam Search, k=3: 海面上有一个穿着潜水服的人在潜水<br>Beam Search, k=5: 海面上有一个穿着潜水服的人在潜水<br>Beam Search, k=7: 波涛汹涌的大海里有一个穿着潜水服的人在冲浪 |
+| ![image](https://github.com/HughChi/Image-Caption/raw/master/images/1_bs_image.jpg) | Beam Search, k=1: 大厅里一群人旁边有一个穿着黑色衣服的女人在下国际象棋<br>Beam Search, k=3: 大厅里一群人的旁边有一个左手托着下巴的女人在下国际象棋<br>Beam Search, k=5: 大厅里一群人旁有一个戴着眼镜的女人在下国际象棋<br>Beam Search, k=7: 大厅里一群人旁边有一个戴着眼镜的女人在下国际象棋 |
 
 ### 数据预处理
 ```bash
