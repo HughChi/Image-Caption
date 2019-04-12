@@ -2,21 +2,20 @@
 图像中文描述问题融合了计算机视觉与自然语言处理两个方向，对图片输出一句话的描述。
 描述句子要求符合自然语言习惯，点明图像中的重要信息，涵盖主要人物、场景、动作等内容。
 
-This is a project of the 2018 Artificial Intelligence Practice. Thanks to my team members and Dr.Cao Jian.
-这个是人工智能实践的课程项目，非常感谢曹健老师和每一位队友！
+此项目是人工智能实践的课程项目，非常感谢曹健老师和每一位队友！
 
-Our Demo:https://www.bilibili.com/video/av39947484
-Reference Paper: Show and Tell: A Neural Image Caption Generator https://arxiv.org/pdf/1411.4555
-Reference Code: https://github.com/foamliu/Image-Captioning
+Our Demo:https://www.bilibili.com/video/av39947484 
+Reference Paper: Show and Tell: A Neural Image Caption Generator https://arxiv.org/pdf/1411.4555 
+Reference Code: https://github.com/foamliu/Image-Captioning 
 
 技术细节详见博客:
 
-##Environment
+## Environment
 Python==3.5
 Tensorflow==1.5.0
 Keras==2.2.2
 
-##数据集
+## 数据集
 <img src="https://github.com/HughChi/Image-Caption/raw/master/images/dataset.png" width="600">
 
 数据来自[2017 AI Challenger](https://challenger.ai/competition/caption)
@@ -27,31 +26,31 @@ Keras==2.2.2
 测试集 B：30,000 张
 [数据集下载](https://challenger.ai/dataset/caption)，放在data目录
 
-##模型结构
+## 模型结构
 <img src="https://github.com/HughChi/Image-Caption/raw/master/images/net.png" width="600" >
 
-##Result
-|Defaulf|Score|
-|-------|:---:|
-|CIDEr|0.810|
-|Bleu_4|0.281|
-|Bleu_3|0.368|
-|Bleu_2|0.482|
-|Bleu_1|0.634|
-|ROUGE_L|0.489|
-|METEOR|0.291|
+## Result
+| Defaulf | Score |
+| ------- | :---: |
+| CIDEr   | 0.810 |
+| Bleu_4  | 0.281 |
+| Bleu_3  | 0.368 |
+| Bleu_2  | 0.482 |
+| Bleu_1  | 0.634 |
+| ROUGE_L | 0.489 |
+| METEOR  | 0.291 |
 
-##使用方式
-###Demo
+## 使用方式
+### Demo
 下载 [预训练模型](https://github.com/HughChi/Image-Caption/releases/download/v1.0/model.04-1.3820.hdf5) 放在models目录
 
 ```bash
 $ python app.py
 ```
-|Image|Caption|
-|---|---|
-|![image](https://github.com/HughChi/Image-Caption/raw/master/images/0_bs_image.png) | Beam Search, k=1: 一个穿着潜水服的人在蔚蓝的海里潜水<br>Beam Search, k=3: 海面上有一个穿着潜水服的人在潜水<br>Beam Search, k=5: 海面上有一个穿着潜水服的人在潜水<br>Beam Search, k=7: 波涛汹涌的大海里有一个穿着潜水服的人在冲浪|
-|![image](https://github.com/HughChi/Image-Caption/raw/master/images/1_bs_image.png) | Beam Search, k=1: 大厅里一群人旁边有一个穿着黑色衣服的女人在下国际象棋<br>Beam Search, k=3: 大厅里一群人的旁边有一个左手托着下巴的女人在下国际象棋<br>Beam Search, k=5: 大厅里一群人旁有一个戴着眼镜的女人在下国际象棋<br>Beam Search, k=7: 大厅里一群人旁边有一个戴着眼镜的女人在下国际象棋|
+| Image | Caption |
+| --- | --- |
+| ![image](https://github.com/HughChi/Image-Caption/raw/master/images/0_bs_image.png) | Beam Search, k=1: 一个穿着潜水服的人在蔚蓝的海里潜水<br>Beam Search, k=3: 海面上有一个穿着潜水服的人在潜水<br>Beam Search, k=5: 海面上有一个穿着潜水服的人在潜水<br>Beam Search, k=7: 波涛汹涌的大海里有一个穿着潜水服的人在冲浪 |
+| ![image](https://github.com/HughChi/Image-Caption/raw/master/images/1_bs_image.png) | Beam Search, k=1: 大厅里一群人旁边有一个穿着黑色衣服的女人在下国际象棋<br>Beam Search, k=3: 大厅里一群人的旁边有一个左手托着下巴的女人在下国际象棋<br>Beam Search, k=5: 大厅里一群人旁有一个戴着眼镜的女人在下国际象棋<br>Beam Search, k=7: 大厅里一群人旁边有一个戴着眼镜的女人在下国际象棋 |
 
 ### 数据预处理
 ```bash
@@ -62,7 +61,7 @@ $ python generated.py
 ```bash
 $ python backward.py
 ```
-###可视化训练过程
+### 可视化训练过程
 ```bash
 $ tensorboard --logdir path_to_current_dir/logs
 ```
