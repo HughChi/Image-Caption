@@ -30,15 +30,9 @@ Keras==2.2.2
 <img src="https://github.com/HughChi/Image-Caption/raw/master/images/net.png" width="600" >
 
 ## Result
-| Defaulf | Score |
-| ------- | :---: |
-| CIDEr   | 0.810 |
-| Bleu_4  | 0.281 |
-| Bleu_3  | 0.368 |
-| Bleu_2  | 0.482 |
-| Bleu_1  | 0.634 |
-| ROUGE_L | 0.489 |
-| METEOR  | 0.291 |
+| CIDEr | Bleu_4 | Bleu_3 | Bleu_2 | Bleu_1 | ROUGE_L | METEOR |
+|  ---  | ---    | ---    | ---    | ---    | ---     | ---    |
+| 0.810 | 0.281  | 0.368  | 0.482  | 0.634  | 0.489   | 0.291  |
 
 ## 使用方式
 ### Demo
