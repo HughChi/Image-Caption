@@ -6,9 +6,9 @@
 
 Our Demo:https://www.bilibili.com/video/av39947484   
 Reference Paper: Show and Tell: A Neural Image Caption Generator https://arxiv.org/pdf/1411.4555   
-Reference Code: https://github.com/foamliu/Image-Captioning   
+Reference Code:https://github.com/foamliu/Image-Captioning   
 
-技术细节详见博客:
+技术细节详见博客:https://hughchi.github.io/2019/04/12/图像中文描述/  
 
 ## Environment
 Python==3.5  
