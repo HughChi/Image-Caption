@@ -15,6 +15,10 @@ Python==3.5
 Tensorflow==1.5.0  
 Keras==2.2.2  
 
+## Update
+数据集下载地址
+链接: https://pan.baidu.com/s/1h4qqQPqfqpGUPZLd8UYWZw  密码: 1kdq
+
 ## 数据集
 <div align=center><img width="600" src="https://github.com/HughChi/Image-Caption/raw/master/images/dataset.png"></div>
 
